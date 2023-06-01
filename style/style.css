@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+
+}
+
+body,html{
+    color: black;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Roboto;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+img {
+    width: 8rem;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+h1{
+    font-size: 9rem;
+    font-weight: 600;
+    line-height: 1.4;
+
+}
+h2{
+    font-size: 4rem;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 3rem;
+    line-height: 1rem;
+    font-weight: 700;
+}
+h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+h5 {
+    font-size: 90px;
+}
+p{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-family: Roboto;
+}
+
+.font {
+    font-size: 55px;
+    
+    
+}
+.fontodd{
+    font-size:48px ;
+    
+}
+.home{
+    
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.header {
+    padding-top: 2rem;
+}
+
+.navbar{
+    /* background-image: url(https://i.postimg.cc/D0GVQHR9/last.jpg); */
+    background-color: #982800;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem  4rem;
+    /* position: absolute;
+    z-index: 10;
+    top: 10%; */
+}
+
+.header .navbar-nav .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 0.5rem 5rem;
+    margin: 2rem;
+    font-family: 'Caveat', cursive;
+}
+.header .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.header .navbar {
+    background-size: cover;
+    padding: 2rem;
+}
+.header .navbar-nav{
+    margin-top: 2rem;
+}
+.header .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-top: 1rem;
+}
+
+/* banner section */
+.banner_section {
+    background: url('https://i.postimg.cc/P5HB8v7X/cover-2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:90vh ;
+}
+
+.banner_section .carousel-item{
+    padding: 3rem 0;
+    height: 90vh;
+}
+
+.banner_section .carousel-caption{
+    top: 30%;
+    bottom: 0;
+    left: 3%;
+    right: 0;
+    text-align: left;
+    width: 100%;
+}
+
